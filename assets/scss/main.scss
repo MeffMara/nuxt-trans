@@ -1,0 +1,38 @@
+@import '_variables.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.btn--bold {
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 5px 12px;
+  color: white;
+}
+
+a.btn--red {
+  background: radial-gradient(
+    53.24% 47.17% at 49.87% 49.92%,
+    #d81719 0%,
+    #d41719 36.93%,
+    #c7181a 75.12%,
+    #ba181b 100%
+  );
+  border-radius: 4px;
+}
+
+.top.grid-cols-4 {
+  padding: 18px 15px;
+  grid-template-columns: minmax(185px, max-content) repeat(auto-fill, 348px) 20%;
+}
+
+.search {
+  input {
+    height: 48px;
+    min-width: 284px;
+  }
+}

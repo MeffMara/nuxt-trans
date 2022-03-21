@@ -1,5 +1,5 @@
-<template>
-  <Tutorial />
+<template lang="pug">
+h1 Home Page
 </template>
 
 <script lang="ts">
